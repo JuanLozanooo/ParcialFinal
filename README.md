@@ -138,3 +138,9 @@ classDiagram
 
 - Repositorio: https://github.com/JuanLozanooo/ParcialFinal.git
 - Despligue: https://parcialfinal-s68k.onrender.com
+
+## 👤 Autores
+
+**Danna Valentina Martinez Sanchez 67001335**
+
+**Juan David Lozano Reyes 67001258**
