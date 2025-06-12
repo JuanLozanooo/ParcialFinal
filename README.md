@@ -91,6 +91,30 @@ classDiagram
 
   
 
+### ✨ Desarrollo del trabajo
+
+- **Etapa 1: Configuración Inicial**
+    - Configuración del entorno virtual (`.venv`).
+    - Registro de dependencias y variables de entorno (`requirements.txt`, `.env`).
+
+- **Etapa 2: Modelado y Base de Datos**
+    - Creación de los modelos base para vuelos, mascotas y usuarios en SQLAlchemy/SQLModel.
+    - Configuración del archivo `connection_db.py` para manejar la conexión a la base de datos.
+    - Carga inicial de datos utilizando los scripts `*_to_db.py` desde los archivos CSV.
+
+- **Etapa 3: Operaciones CRUD**
+    - Implementación de la lógica base para las operaciones CRUD en vuelos, mascotas y usuarios:
+        - Crear nuevos registros para cada entidad.
+        - Consultar individuales o listados.
+        - Modificar datos existentes.
+        - Eliminar registros.
+
+- **Etapa 4: Interfaz (Frontend)**
+    - Construcción de plantillas base (`base.html`) y personalizadas (`home.html`) para permitir la interacción del usuario con el sistema.
+
+- **Etapa 5: Documentación y Control de Versiones**
+    - Creación de un archivo `.gitignore` para excluir procesos sensibles.
+    - Documentación detallada mediante un `README.md` que describe la estructura del proyecto, los pasos de configuración y los casos de uso.
 
 
 ## 🌐 Para ver el despliege puedes ir a los siguientes enlaces
