@@ -15,3 +15,6 @@ app = FastAPI(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "..", "templates"))
 
+@app.get("/", response_class=HTMLResponse)
+async def read_home(request: Request):
+    return templates.TemplateResponse("home.html", {"request": request})
