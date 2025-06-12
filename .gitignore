@@ -251,7 +251,6 @@ celerybeat.pid
 
 # Environments
 app/.env
-.venv
 env/
 venv/
 ENV/
