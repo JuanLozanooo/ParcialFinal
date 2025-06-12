@@ -1,3 +1,3 @@
-id,id_vuelo,nombre,raza
-1,1,kira,canino - criollo
-2,2,mónaco,felino - amarillo pardo
+id,id_vuelo,nombre,edad,raza
+1,1,kira,9,canino - criollo
+2,2,mónaco,2,felino - amarillo pardo
