@@ -35,3 +35,7 @@ class PetsResponse(SQLModel):
     nombre: str
     edad: int
     raza: str
+
+class DeletedPets(PetsBase, table=True):
+    __tablename__ = "deleted_pets"
+    id: Optional[int] = Field(default=None, primary_key=True)

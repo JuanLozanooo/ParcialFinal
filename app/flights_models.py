@@ -27,8 +27,12 @@ class FlightsUpdate(SQLModel):
             return None
         return v
 
-class PetsResponse(SQLModel):
+class FlightsResponse(SQLModel):
     id: int
     origen: str
     destino: str
     fecha: str
+
+class DeletedPets(FlightsBase, table=True):
+    __tablename__ = "deleted_flights"
+    id: Optional[int] = Field(default=None, primary_key=True)
