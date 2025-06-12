@@ -3,7 +3,7 @@ from sqlmodel import SQLModel, Field
 from pydantic import validator
 
 class UsersBase(SQLModel):
-    id_vuelo: int = Field(..., ge=10, le=100)
+    id_vuelo: int = Field(..., ge=0, le=1000000)
     nombre: str = Field(..., min_length=3, max_length=50)
     nombre_mascota: str = Field(..., min_length=3, max_length=50)
 
@@ -17,7 +17,7 @@ class UsersRead(UsersBase):
     id: int
 
 class UsersUpdate(SQLModel):
-    id_vuelo: Optional[int] = Field(..., ge=10, le=100)
+    id_vuelo: Optional[int] = Field(..., ge=0, le=1000000)
     nombre: Optional[str] = Field(None, min_length=3, max_length=50)
     nombre_mascota: Optional[str] = Field(None, min_length=3, max_length=50)
 
