@@ -1,3 +1,11 @@
 id,id_vuelo,nombre,edad,raza
-1,1,kira,9,canino - criollo
-2,2,mónaco,2,felino - amarillo pardo
+1,1,Kira,9,canino - pincher
+2,2,Mónaco,2,felino - amarillo pardo
+3,3,Niño,3,felino - criollo
+4,4,Niña,2,felino - criollo
+5,5,Shirley,12,canino - poodle
+6,6,Golondrina,9,canino - criollo
+7,7,Sasha,10,canino - Rottwiler
+8,8,Laika,7,canino - golden
+9,9,Luna,8,canino - mestiza
+10,10, Drako,3,canino - bulldog
