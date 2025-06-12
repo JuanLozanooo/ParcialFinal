@@ -8,7 +8,7 @@ class Flights(SQLModel, table=True):
     destino: str = Field(..., min_length=3, max_length=50)
     fecha: str = Field(..., min_length=3, max_length=50)
 
-DATABASE_URL = "postgresql://uaaxitnpmzqpjj4qfyhh:xzn2GEMmztcr1ZFmUDZaiqaBBBxH9I@bnbzawfplrlhmtkwamnb-postgresql.services.clever-cloud.com:50013/bnbzawfplrlhmtkwamnb"
+DATABASE_URL = "postgresql://uftisxallj1wdertwjo7:grggYg9AzgZB3rN33IroNZMwPh3u9Y@blfbbxfkgyqnaoc4fkdq-postgresql.services.clever-cloud.com:50013/blfbbxfkgyqnaoc4fkdq"
 engine = create_engine(DATABASE_URL)
 
 def create_table():
