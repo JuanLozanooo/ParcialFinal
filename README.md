@@ -17,6 +17,33 @@
 - 📊 **Conexión a bases de datos**
 - 🗂️️ **Repositorio GitHUb**
 
+### ✨ Modelado de las entidades
+```mermaid
+classDiagram
+    class Flights {
+        id: Optional[int]
+        origen: str
+        destino: str
+        fecha: str
+    }
+
+    class Pets {
+        id: Optional[int]
+        id_vuelo: int
+        nombre: str
+        edad: int
+        raza: str
+    }
+
+    class Users {
+        id: Optional[int]
+        id_vuelo: int
+        nombre: str
+        nombre_mascota: str
+    }
+
+
+```
 ## 🌐 Para ver el despliege puedes ir a los siguientes enlaces
 
 - Repositorio: https://github.com/JuanLozanooo/ParcialFinal.git
